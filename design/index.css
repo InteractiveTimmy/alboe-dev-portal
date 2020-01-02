@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+* [data-placeholder] {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #e3e;
+}
+
+* [data-placeholder-a] {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #c5c;
+}
+
+a {
+  color: #eee;
+  text-decoration: none;
+}
+
+footer {
+  align-items: center;
+  background-color: #333;
+  color: #eee;
+  display: flex;
+  height: 4rem;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+footer > div {
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+footer > div > .item {
+  margin: 0 0.5rem;
+}
+
+footer > .legal > .item:first-child {
+  margin-left: 0;
+}
+
+footer > .tooling {
+  justify-content: center;
+}
+
+footer > .links {
+  justify-content: flex-end;
+}
+
+footer > .links > .item:last-child {
+  margin-right: 0;
+}
+
+footer > .links > .item {
+  height: 2rem;
+  width: 2rem;
+}
+
+header {
+  align-items: center;
+  background-color: #333;
+  color: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  height: 4rem;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+
+html {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.identity {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.identity > div:first-child {
+  margin-right: 0.5rem;
+}
+
+.identity > div:last-child {
+  margin-left: 0.5rem;
+}
+
+.identity > .logo {
+  height: 3rem;
+  width: 3rem;
+}
+
+.identity > .title {
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav > .item {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 0.5rem;
+  width: 8rem;
+}
+
+nav > .item:last-child {
+  margin-right: 0;
+}
+
+section {
+  min-height: 480px;
+}
